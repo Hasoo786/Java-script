@@ -78,21 +78,21 @@
 
 
 
-var eng = prompt("Enter your marks")
+var eng = +prompt("Enter your eng marks");
 
-var urdu = prompt("Enter your marks")
+var urdu = +prompt("Enter your urdu marks");
 
-var math = prompt("Enter your marks")
+var math = +prompt("Enter your math marks");
 
-var science = prompt("Enter your marks")
+var science = +prompt("Enter your science marks");
 
-var obtainedmarks = ( eng + urdu + math + science )
+var obtainedmarks =  eng + urdu + math + science ;
 
-var totalmarks = 400
+var totalmarks = 400;
 
-var percentage = (obtainedmarks/totalmarks*80)
+var percentage = obtainedmarks/totalmarks*100;
 
-console.log (percentage)
+console.log (percentage);
 
 
 
